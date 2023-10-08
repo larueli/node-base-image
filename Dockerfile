@@ -24,6 +24,6 @@ ENV NODE_VERSION=${NODE_VERSION}
 
 WORKDIR /app
 
-CMD ["pnpm run dev"]
+CMD ["pnpm", "run", "dev"]
 
 ENTRYPOINT [ "/entrypoint.sh" ]
