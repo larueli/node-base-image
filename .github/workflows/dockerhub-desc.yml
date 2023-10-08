@@ -21,4 +21,4 @@ jobs:
         with:
           username: ${{ secrets.DOCKER_HUB_USERNAME }}
           password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
-          repository: ${{ secrets.DOCKER_HUB_USERNAME }}/php-base-image
+          repository: ${{ secrets.DOCKER_HUB_USERNAME }}/node-base-image
