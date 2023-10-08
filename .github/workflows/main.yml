@@ -42,7 +42,6 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          target: production
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/node-base-image:${{ matrix.node-version }}
           build-args: NODE_VERSION=${{ matrix.node-version }}
 
